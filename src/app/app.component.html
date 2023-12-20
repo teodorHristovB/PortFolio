@@ -7,15 +7,18 @@
 </head>
 <body>
 
-  <div class="container">
 
-    <header>
-      <div class="logo">
-        <img src="../assets/logo.png" class="imagenLogo"alt="Logo">
-        <h1 class="nombre">Teodor <br>Hristov</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="navbar-brand imagenLogo">
+        <img src="../assets/logo.png" class="imagenLogo" alt="Logo">
+        <span class="nombre">Teodor Hristov</span>
       </div>
-
-        <ul class="col-12 col-md-6 nav menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navegador" id="navbarNav">
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active navItem" aria-current="page" href="/">Inicio</a>
           </li>
@@ -26,14 +29,18 @@
             <a class="nav-link navItem" href="#contactForm">Contacto</a>
           </li>
         </ul>
-    </header>
+      </div>
+    </div>
+  </nav>
 
+  <div class="container">
     <main>
-      <section class="col-12 col-md-6 descFoto">
+      <section class="descFoto">
         <div class="descFotoGrid" id="descFotoGrid">
-          <div class="card descFotoGridItem">
-            <div class="card-body">
-              <h5 class="card-title titulo">Desarrollador de Software</h5>
+          <div class="col-12">
+            <div class="card descFotoGridItem">
+              <div class="card-body">
+                <h5 class="card-title titulo">Desarrollador de Software</h5>
                 <p class="card-text desc">Técnico Superior en Desarrollo de Aplicaciones Multiplataforma con conocimientos en: </p>
                 <div class="lenguajes">
                   <img src="../assets/java.svg" alt="JAVA">
@@ -65,10 +72,11 @@
                     <img src="../assets/github.svg" alt="perfilLinkedIn" class="imgLinkedIn">
                   </button>
                 </div>
+              </div>
             </div>
           </div>
 
-          <div class="descFotoGridItem imagen-columna">
+          <div class="descFotoGridItem d-none d-md-block">
             <img src="../assets/HypeHorizen2.jpg" class="img-fluid imgTed" alt="Foto Teodor Hristov">
           </div>
         </div>
