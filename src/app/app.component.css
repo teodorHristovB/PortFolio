@@ -48,9 +48,6 @@ main{
     margin-left: 45.3%;
 }
 
-.botonNav{
-    padding-right: 5%;
-}
 
 .menu{
     font-family:'JosefinSans', 'sans serif';
@@ -264,9 +261,13 @@ main{
 
 @media (max-width: 576px) {
   .descFotoGridItem {
-    width: 152%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
+    width: 154%;
     margin-left: 2%;
     margin-top: 5%;
+  }
+
+  .nombre{
+    font-size: 20px;
   }
 
   .titulo{
@@ -287,6 +288,10 @@ main{
 
   #developedProjects{
     margin-top: 5%;
+  }
+
+  .botonNav{
+    padding-right: 5%;
   }
 }
 
