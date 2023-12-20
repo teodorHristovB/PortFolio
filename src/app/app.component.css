@@ -258,8 +258,8 @@ main{
 
 @media (max-width: 576px) {
   .descFotoGridItem {
-    width: 100%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
-    margin-left: 0%; 
+    width: 163%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
+    margin-left: 1%; 
   }
 }
 
