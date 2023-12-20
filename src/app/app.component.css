@@ -65,7 +65,7 @@ main{
 .descFotoGrid{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 40px;
+    gap: 20px;
     margin-left: 3.8%;
     max-width: 93%;
     opacity: 0;
@@ -231,6 +231,7 @@ main{
 
 #contactForm{
     margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #contactForm p{
@@ -238,7 +239,8 @@ main{
 }
 
 #contactForm label{
-    width: 6%;
+    max-width: 100%;
+    text-align: left;
 }
 
 .fNombre textarea{
@@ -253,7 +255,7 @@ main{
 }
 
 #asuntos{
-    margin-left: -0.35%;
+    margin-left: 0%;
 }
 
 @media (max-width: 576px) {
