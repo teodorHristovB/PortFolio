@@ -271,7 +271,7 @@ main{
   }
 
   .titulo{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 700;
   }
 
@@ -282,8 +282,8 @@ main{
   #contactForm{
     margin-top: 5%;
     padding-bottom: 5%;
-    margin-left: 1.5%;
-    max-width: 96%;
+    margin-left: 2%;
+    max-width: 95.5%;
   }
 
   #developedProjects{
