@@ -258,7 +258,7 @@ main{
 
 @media (max-width: 576px) {
   .descFotoGridItem {
-    width: 164.5%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
+    width: 164.8%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
     margin-left: 1%; 
   }
 
@@ -271,7 +271,7 @@ main{
     display: none;
   }
 
-  #contactform p{
+  #contactForm{
     margin-top: 5%;
   }
 
