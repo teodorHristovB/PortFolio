@@ -263,14 +263,15 @@ main{
   }
 
   .titulo{
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 500;
   }
 
   .softSkills{
     display: none;
   }
 
-  #contactform{
+  #contactform p{
     margin-top: 5%;
   }
 
