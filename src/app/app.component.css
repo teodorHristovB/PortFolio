@@ -48,6 +48,10 @@ main{
     margin-left: 45.3%;
 }
 
+.botonNav{
+    padding-right: 5%;
+}
+
 .menu{
     font-family:'JosefinSans', 'sans serif';
 }
@@ -260,13 +264,14 @@ main{
 
 @media (max-width: 576px) {
   .descFotoGridItem {
-    width: 164.8%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
-    margin-left: 1%; 
+    width: 152%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
+    margin-left: 2%;
+    margin-top: 5%;
   }
 
   .titulo{
     font-size: 23px;
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .softSkills{
@@ -275,6 +280,9 @@ main{
 
   #contactForm{
     margin-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 1%;
+    max-width: 97%;
   }
 
   #developedProjects{
