@@ -262,7 +262,7 @@ main{
 @media (max-width: 576px) {
   .descFotoGridItem {
     width: 154%;
-    margin-left: 2%;
+    margin-left: 1.5%;
     margin-top: 5%;
   }
 
@@ -282,8 +282,8 @@ main{
   #contactForm{
     margin-top: 5%;
     padding-bottom: 5%;
-    margin-left: 1%;
-    max-width: 97%;
+    margin-left: 1.5%;
+    max-width: 96%;
   }
 
   #developedProjects{
