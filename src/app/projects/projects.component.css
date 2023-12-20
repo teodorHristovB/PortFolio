@@ -61,3 +61,9 @@
     height: 300px;
 }
 
+@media (max-width: 576px) {
+    .container{
+        margin-left: 2%;
+    }
+}
+  

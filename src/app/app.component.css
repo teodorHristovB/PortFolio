@@ -258,12 +258,12 @@ main{
 
 @media (max-width: 576px) {
   .descFotoGridItem {
-    width: 164%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
+    width: 164.5%; /* Asegura que ocupe todo el ancho en dispositivos pequeños */
     margin-left: 1%; 
   }
 
   .titulo{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .softSkills{
