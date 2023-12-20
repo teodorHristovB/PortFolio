@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    /*background-color: #cae2c0;*/
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../assets/JosefinSans-VariableFont_wght.ttf');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0px; 
+}
+
+main{
+    text-align: center; 
+    margin-bottom: 4%;
+}
+
+.nombre{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.imagenLogo {
+    width: 60%;
+    max-width: 150px;
+    margin-right: 5%;
+    margin-left: 10%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.menu{
+    font-family:'JosefinSans', 'sans serif';
+}
+
+.navItem{
+    font-size: 30px;
+    color: black;
+    border-radius: 5%;
+}
+
+.navItem:hover{
+    font-weight: 700;
+}
+
+.descFotoGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    margin-left: 3.8%;
+    max-width: 93%;
+    opacity: 0;
+}
+
+.softSkills{
+    margin-left: 3.9%;
+    max-width: 93%;
+    text-align: left;
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.descFotoGridItem{
+    text-align: left;
+}
+
+.card{
+    width: fit-content; 
+    max-height: 100%; 
+    background-image: url('../assets/fondoAcuarela.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.titulo{
+    margin-top: 2%;
+    font-size: 300%;
+    margin-left: 3%;
+    margin-right: 5%;
+    font-family: 'JosefinSans';
+}
+
+.lenguajes img{
+    margin-bottom: 4%;
+    margin-left: 4%;
+    height: 40px;
+    width: 45px;
+}
+
+.desc{
+    margin-left: 4%;    
+    margin-right: 5%;
+    margin-bottom: 4%;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.imgTed{
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+.botonCV{
+    height: 50px;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.botonCV:hover {
+    background-color: #cccccc; 
+  }
+
+
+.botonLI{
+    margin-top: 1%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    margin-right: 2%;
+}
+
+.botonLI:hover{
+    background-color: #81c9fa;
+}
+
+.botonGIT:hover{
+    background-color: #81c9fa;
+}
+
+.imgLinkedIn{
+    width: 25px;
+    height: 25px;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.btnOcultar{
+    margin: 2%;
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 3.5%;
+}
+
+#developedProjects{
+    margin-top: 2%;
+}
+
+#pProyectos{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'JosefinSans';
+}
+
+.formulario{
+    margin-left: 3.8%;
+    max-width: 93%;
+}
+
+#contenedorFormulario{
+    opacity: 0;
+    transform: translateY(100px);
+    margin-left: 4.5%;
+    width: 93%;
+    padding: 2%;
+}
+
+.container-reveal-animation {
+    animation-name: reveal;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+.container-appear-animation {
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes reveal {
+    0% { opacity: 0; transform: translateY(100px); }
+    50% { opacity: 0.1; }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0; /* Comienza completamente transparente */
+      }
+      to {
+        opacity: 1; /* Termina completamente visible */
+      }
+}
+
+.fNombre{
+    display: flex;
+    flex-direction: column;
+}
+
+.fNombre input{
+    max-width: 100%;
+    border-color: black;
+}
+
+#contactForm{
+    margin-top: 2%;
+}
+
+#contactForm p{
+    font-family: 'JosefinSans';
+}
+
+#contactForm label{
+    width: 6%;
+}
+
+.fNombre textarea{
+    max-width: 100%;
+    height: 200px;
+    border-color: black;
+}
+
+#contactForm p{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#asuntos{
+    margin-left: -0.35%;
+}
+
+
+
