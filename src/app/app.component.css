@@ -39,7 +39,7 @@ main{
     width: 80%;
     max-width: 150px;
     margin-right: 5%;
-    margin-left: 3.3%;
+    margin-left: 3.4%;
 
 }
 
@@ -73,7 +73,7 @@ main{
 }
 
 .softSkills{
-    margin-left: 3.9%;
+    margin-left: 4.5%;
     max-width: 93%;
     text-align: left;
     margin-top: 2%;
@@ -94,10 +94,11 @@ main{
 }
 
 .titulo{
-    margin-top: 2%;
-    font-size: 300%;
-    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 35px;
+    margin-left: 3.5%;
     margin-right: 5%;
+    font-weight: 700;
     font-family: 'JosefinSans';
 }
 
@@ -187,8 +188,8 @@ main{
 #contenedorFormulario{
     opacity: 0;
     transform: translateY(100px);
-    margin-left: 4.5%;
-    width: 93%;
+    margin-left: 4.8%;
+    width: 92%;
     padding: 2%;
 }
 
