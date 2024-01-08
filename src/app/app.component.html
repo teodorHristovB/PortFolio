@@ -14,7 +14,14 @@
     <div class="container botonNav">
       <div class="navbar-brand imagenLogo">
         <img src="../assets/logo.png" class="imagenLogo" alt="Logo">
-        <span class="nombre">Teodor Hristov</span>
+        <span>
+          <button type="button" class="btn btn-dark nombre rounded-circle">
+            <img src="../assets/icons8-moon-64.png" alt="Dark mode" class="imgLinkedIn">
+          </button>
+          <button type="button" class="btn btn-dark nombre rounded-circle">
+            <img src="../assets/icons8-united-kingdom-48.png" alt="English" class="imgLinkedIn">
+          </button>
+        </span>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,7 +80,7 @@
                 <button type="button" class="btn btn-dark botonLI rounded-circle" (click)="redireccionLinkedIn()">
                   <img src="../assets/linkedin.svg" alt="perfilLinkedIn" class="imgLinkedIn">
                 </button>
-                <button type="button" class="btn btn-dark botonLI rounded-circle">
+                <button type="button" class="btn btn-dark botonLI rounded-circle" (click)="redireccionGitHub()">
                   <img src="../assets/github.svg" alt="perfilLinkedIn" class="imgLinkedIn">
                 </button>
               </div>

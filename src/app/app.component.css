@@ -25,9 +25,25 @@ main{
 }
 
 .nombre{
+    /*
     margin-top: 3%;
     font-size: 25px;
-    font-family:'JosefinSans', 'sans serif';
+    font-family:'JosefinSans', 'sans serif';*/
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: none;
+    margin-right: 2%;
+    margin-bottom: 8%;
+}
+
+.nombre img{
+    width: 30px;
+    height: 30px;
+}
+
+.nombre:hover{
+    background-color: #81c9fa;
 }
 
 .logo{

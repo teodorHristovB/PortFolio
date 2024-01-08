@@ -30,6 +30,16 @@ export class AppComponent implements OnInit {
     document.body.removeChild(link);
   }
 
+  redireccionGitHub() {
+    const link = document.createElement('a');
+    link.setAttribute('href', 'https://github.com/teodorHristovB');
+    link.setAttribute('target', '_blank');
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   aniadirBotonOcultar(){
 
     const pAnterior = document.getElementById('pProyectos');
